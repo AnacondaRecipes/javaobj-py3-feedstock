@@ -1,8 +1,8 @@
 {% set name = "javaobj-py3" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "a57469e4f0d0eeba7482ad9839595db6e99ca4ac6630a4c8064dda75a2182549" %}
+{% set hash_value = "419ff99543469e68149f875abb0db5251cecd350c03d2bfb4c94a5796f1cbc14" %}
 
 package:
   name: '{{ name|lower }}'
