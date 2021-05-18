@@ -24,6 +24,8 @@ requirements:
     - pip
   run:
     - python
+    - enum34  # [py<=34]
+    - typing  # [py<=34]
 
 test:
   imports:
@@ -31,13 +33,14 @@ test:
 
 about:
   home: https://github.com/tcalmant/python-javaobj
-  license: Apache Software
+  license: Apache-2.0
   license_family: APACHE
   summary: Module for serializing and de-serializing Java objects.
   description: |
     provides functions for reading and writing (writing is WIP currently) Java objects serialized or will be
     deserialized by ``ObjectOutputStream``. This form of object representation is a standard data interchange
     format in Java world.
+  dev_url: https://github.com/tcalmant/python-javaobj
 
 extra:
   recipe-maintainers:
